@@ -108,7 +108,7 @@ int main(int argc, char** argv)
 		}
 		else if(valor==2){
 			if(isEmpty(senhasGeradas)){
-				cout << "Fila vazia, digite outra opcao." << endl;
+				cout << "Fila vazia." << endl;
 			}
 			else{
 				aux = dequeue(senhasGeradas);
